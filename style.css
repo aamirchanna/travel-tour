@@ -16,31 +16,6 @@ body {
     display: flex;
 }
 
-ul>a {
-    margin-top: 20px;
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    list-style: none;
-}
-
-.container2 {
-
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    justify-content: center;
-    /* height: 100%; */
-    margin-top: 80px;
-    
-}
-
-.container2 img {
-    width: 500px;
-    height: 324;
-    margin: -23px 0px;
-}
-
 .logo {
     margin-top: 10px;
     float: left;
@@ -57,23 +32,30 @@ ul>a {
     width: 15px;
 }
 
+
+ul>a {
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    list-style: none;
+}
+
+.main {
+    border: 2px solid red;
+    display: flex;
+    padding: 30px;
+}
+
+.container2 {
+    height: 500px;
+
+}
+
+
 @media only screen and (max-width: 750px) {
     .container ul a {
         display: none;
-    }
-
-    .container2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 750px;
-        margin: 24px -75px;
-    }
-
-    .container2 img {
-        width: 100%;
-        height: auto;
-        margin: 5px;
     }
 
     .container {
@@ -92,4 +74,20 @@ ul>a {
         margin-top: 10px;
         padding: 10px;
     }
+
+    .main {
+        display: inline;
+    }
+
+    .container2 {
+        width: 100%;
+        margin-left: 60px;
+        height: 550px;
+    }
+
+    .container3 {
+        margin-left: 60px;
+        width: 100%;
+    }
+
 }
